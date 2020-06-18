@@ -1,4 +1,7 @@
 # Default .gitignore repository template - VueCLI based project.
+
+[![CodeFactor](https://www.codefactor.io/repository/github/verdantsparks/vuecli-base-project-template/badge)](https://www.codefactor.io/repository/github/verdantsparks/vuecli-base-project-template)
+
 Using this repo to save time from editing .gitignore to ignore MacOS and JetBrains file on top of Visual Studio setting. It also avoid committing user secrets into git repository. Please have your user secrets (e.g. API keys) placed in `.env.local` / `.env.{mode}.local` with key value pairs like:
 ```
 VUE_APP_MY_SECRET=FOO
